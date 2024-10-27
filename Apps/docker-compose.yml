@@ -34,6 +34,9 @@ services:
       - target: 80
         published: "10002"
         protocol: tcp 
+      - target: 3000
+        published: "3000"
+        protocol: tcp 
     restart: unless-stopped
     volumes:
       - type: bind
@@ -57,6 +60,9 @@ services:
           description:
             en_us: ""
         - container: "68"
+          description:
+            en_us: ""
+        - container: "3000"
           description:
             en_us: ""
       volumes:
