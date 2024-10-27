@@ -75,7 +75,7 @@ x-casaos:
     - arm64
     - ppc64le
   main: adguard-home
-  author: CasaOS Team
+  author: Dindon Sama
   category: Network
   description:
     fr_fr: AdGuard Home est un logiciel réseau pour bloquer les publicités et le suivi. Une fois configuré, il couvrira tous vos appareils domestiques et vous n'aurez pas besoin de logiciel client pour cela. En savoir plus sur notre référentiel officiel Github.
@@ -88,7 +88,10 @@ x-casaos:
   tagline:
     fr_fr: Serveur DNS de blocage de publicités et de traqueurs sur tout le réseau
   thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/AdGuardHome/thumbnail.png
-  tips: {}
+  tips:  
+    before_install:
+      fr_fr: |
+        Accedez au port 3000 afin de faire la premiere configuration
   title:
     fr_fr: AdGuard Home
   index: /
